@@ -1,3 +1,4 @@
 #!/bin/bash
 
-systemctl restart httpd
+systemctl start httpd
+systemctl enable httpd
